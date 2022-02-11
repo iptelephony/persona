@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include persona *.css
+recursive-include persona *.csv
+recursive-include persona *.html
+recursive-include persona *.ico
+recursive-include persona *.js
+recursive-include persona *.json
+recursive-include persona *.md
+recursive-include persona *.png
+recursive-include persona *.py
+recursive-include persona *.svg
+recursive-include persona *.txt
+recursive-exclude persona *.pyc
