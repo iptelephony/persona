@@ -10,7 +10,6 @@ frappe.ui.form.on('User', {
 		return false;
 	}
 
-        // if(frappe.session.user === 'Administrator' && frappe.session.user !== frm.doc.name) {
         if (canImpersonate(frappe.session.user, frm.doc.name)) {
             frm.add_custom_button(__("Impersonate"), function () {
 
