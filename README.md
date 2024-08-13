@@ -1,5 +1,9 @@
 ## Persona - ERPNext custom app
 
+###Announcement 13 August 2024
+This app will not be maintained anymore, since ERPNext v15 already has a similar feature. Thanks supporting this project.
+
+
 Persona is a custom ERPNext app that Allows administrator or a system manager to impersonate another user. Inspired by [Administrator should be able to impersonate any user #17615](https://github.com/frappe/erpnext/issues/17615).
 
 1. Only "Administrator" or "System Manager" roles can impersonate another user.
